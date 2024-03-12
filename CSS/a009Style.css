@@ -1,0 +1,17 @@
+h2{
+    font-weight: 400;
+    /* text-decoration: dashed line-through; */
+}
+p{
+    font-weight: lighter ;
+    /* text-decoration:wavy underline; */
+    text-decoration: purple overline;
+}
+h1{
+    text-decoration: underline ;
+    /* text-decoration: dotted line-through; */
+}
+a{
+    text-decoration: none;
+    /* this will remove underline from anchor tag */
+}

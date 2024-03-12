@@ -1,0 +1,54 @@
+p +h3{
+    text-decoration: underline;
+}
+
+.upvote +button{
+      background-color: cyan;
+      color:antiquewhite;
+}
+
+/* descendant selector */
+/* p a{
+ color: purple;
+ background-color: yellow;
+} */
+
+.post a{
+    color: purple;
+    background-color: yellow; 
+ }
+  nav ul li a{
+    color: hotpink;
+  }
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+ }  
+ h1,h3{
+    color: #b92b27;
+ }
+#login{
+    background-color: white ;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* class selector */
+.upvote{
+  background-color: green;
+  color: aliceblue;
+}
+
+/* practise qs */
+#myid p{
+    color: green;
+}
+
+/* OR */
+/* div[id=myid]{
+    color: green;
+} */
+
