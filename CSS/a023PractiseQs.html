@@ -1,0 +1,55 @@
+<!-- for the given html and css code, what is color of h1: -->
+<h1 id="greet" class="myClass">Hello!</h1>
+
+h1{
+    color: pink;
+}
+
+#greet{
+    color: yellow;
+}
+.myClass{
+    color: brown;
+}
+
+
+Solution:- Priority Order of selector:- id > class > element
+
+
+<!-- for the given html and css code what is bg color of p: -->
+<div>
+    <p class="para"> This is paragraph.</p>
+</div>
+
+div p{                                                 id   class   element
+    background-color: black;  (<-descendant selector)  0_     0_       2_
+}
+.para{
+    backbround-color: blue;   (<-class selector)       0_     1_       0_
+} 
+p{
+    background-color: green;   (<-element selector)    0_     0_       1_
+}
+
+this id ,class and elemnt are making 3 digit no. then ans is black with 010(hihest digit)  
+
+
+<!-- For the given html and CSS code, what is color of text "Hello World!": -->
+ <div class="greetDiv">
+    <p class="greet">
+        Hello World!
+    </p> 
+</div>
+
+div.greetDiv .greet{   <-  0_   2_   1_
+    color : green;
+}
+.greetDiv p.greet{     <-  0_   2_   1_
+    color: blue;
+}
+.greetDiv .greet{      <-  0_   2_   0_
+    color: red;
+}
+
+ans:- when same score then we look to specific cascading property i.e. last color will be shown
+ i.e. blue  

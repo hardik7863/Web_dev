@@ -1,0 +1,75 @@
+/* child Combinator */
+div >input {
+    background-color: darksalmon 
+}
+/* draw back of child selector is that it only consider direct descendant tag  due to which descendant is used more than child selector*/
+/* this wont work
+nav  >a {
+    color: hotpink; */
+
+/* instead of writing nav ul li a we can write nav a 
+then nav me jeetne bhi a hai unka color change ho ja yega  */
+
+/* this  is decendant selector yeh nhi dekh ta ke direct hai yeh indirect descendant
+
+yeh nav ke sare a ka color change ker dega*/
+nav a{
+    color: hotpink;
+}
+ /* nav ul li a{  
+    color: hotpink;
+  } */
+
+
+/* Sibling selector */
+p +h3{
+    text-decoration: underline;
+}
+
+.upvote +button{
+      background-color: cyan;
+      color:antiquewhite;
+}
+
+/* descendant selector */
+/* p a{
+ color: purple;
+ background-color: yellow;
+} */
+
+.post a{
+    color: purple;
+    background-color: yellow; 
+ }
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+ }  
+ h1,h3{
+    color: #b92b27;
+ }
+#login{
+    background-color: white ;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* class selector */
+.upvote{
+  background-color: green;
+  color: aliceblue;
+}
+
+/* practise qs */
+#myid p{
+    color: green;
+}
+
+/* OR */
+/* div[id=myid]{
+    color: green;
+} */
+
