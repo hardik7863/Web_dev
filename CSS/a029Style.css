@@ -1,0 +1,37 @@
+/* for GOOd colors to your website you can go to various website 
+by searching color pallets 
+some of the good website are:- 
+
+coolers.com
+canva
+mycolorspace
+*/
+
+/* Not all properties can be inherited 
+like:- width ,height ,border ,etc*/
+div{
+    background-color:yellow;
+}
+
+
+/* 
+inside div we have form if no color alloted to form then it will in yellow color
+inherit from parent 
+element can inherit the properties from grandpaerents if not available by parent
+form{
+    background-color: red;
+} */
+
+/* note:- input box and buttons do not inherit the color by deafualt
+you need to write below code to do so  */
+input{
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+}
+button:hover{
+      background-color: red;
+}
+    
+/* when can inspect and change this property in browser as well */
