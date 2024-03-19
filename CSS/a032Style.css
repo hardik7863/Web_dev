@@ -1,0 +1,11 @@
+div{
+    /* it will set the height of the content  */
+    height: 200px;
+    width: 500;
+    background-color: pink;
+}
+/* in case  if comment out this height property 
+then  the space created previously is no more */
+
+/* incase if comment out the content then space will be reserve even if there is content or not if there is div then the property will be allocated to it */
+

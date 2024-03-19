@@ -1,0 +1,21 @@
+div{
+    height:500px;
+    width: 500px;
+    background-color: pink;
+    border:5px solid black;
+    /* border-radius: 50px; */
+    /* border-radius: 50%; */
+
+    border-top-right-radius: 50%;
+
+    /* this is usually used to give box a circle or oval shape  */
+
+
+    /* for circular shape  we need to have height and wight of 
+    equal shape then apply border radius property =50% */
+
+}
+h1{
+    border:2px dashed green;
+    border-radius: 50%;
+}
