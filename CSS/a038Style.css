@@ -1,0 +1,29 @@
+/* h2{ background-color: pink;
+    display: inline;
+    /* h2 by default block element hota hai }*/
+/* span{ background-color: greenyellow;
+    display: block;
+    /* span by default inline element hota hai }*/ 
+
+    span{
+        /* background-color: lime; */
+
+        /* In span  height width set nhi ho rhe hai 
+        padding and margin sirf right or left me set ho rhe hai  */
+        border: 2px solid black;
+        height: 100px;
+        width: 200px;
+        padding: 50px;
+        margin: 20px;    
+        /* padding and margin dono left or right me set huvi hai  */
+    }
+
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;    
+    
+    /* where as div me aisa kuch bhi nhi hai  */
+}

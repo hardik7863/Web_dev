@@ -1,0 +1,31 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    /* border-width: 5 px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    /* margin-bottom: 25px; */
+    margin: 20px 30px 40px;
+}
+
+h1{
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: green; */
+    border: 2px dashed green;
+    /* border-radius :50%; */
+
+    /* Since heading have by default margin we can remove  it as well  through below code*/
+    margin: 0 ;
+
+}
+button{
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    padding: 0 30px 0 30px;
+    background-color: yellow ;
+}
