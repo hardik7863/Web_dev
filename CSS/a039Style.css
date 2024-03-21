@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    /* display: inline; */
+    /*  Since display inline ker diya hai 
+    then height , width and bg color and margin are ignored
+     */
+     display: inline-block;
+/*  elemenets style block behave inline i.e single line */
+    }
+    #third{
+        display: none;
+        
+    }
