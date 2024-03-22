@@ -9,7 +9,31 @@
     height: 100px;
     width: 100px;
     background-color: cornflowerblue;
-    font-size: 2 em; 
+    font-size: 3 em; 
     /* parent  div se double font size ho jayega*/
     padding: 30px;
+    /* padding  property is set according to the elemnet not to the parent element  */
+
+}
+button{
+    font-size: 50px; 
+    border-radius: 15px ;
+    border :5px solid green;
+    padding-left: 1em;
+    padding-right: 1em;
+    /* font size change kerne pe padding bhi change ho rhe hai  */
+    /*  agar relative size set ker ne hai toh em use kerenge */
+}
+/* Drawback of Em:-
+Snowball effect in nested elemenets 
+
+*/
+section{
+    font-size: 15px;
+}
+div{
+     /* font-size:2em; */
+     /* on doing so asecting order by descendent eleemnt ki size increase hote jayege */
+     /* that is why we will use Rem */
+     font-size: 2rem;
 }
