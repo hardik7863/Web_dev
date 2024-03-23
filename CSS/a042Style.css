@@ -1,0 +1,23 @@
+/* Question 1
+ div{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px dotted black;
+    margin-top: 20 px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2 em;
+    padding: 1 em;
+} */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+li{
+    display: inline;
+}
