@@ -20,5 +20,5 @@ div:nth-of-type(3n){
 /* Transform */
  #one{
     transform: rotate(180deg);
-    /* this also rotate the content or the text */
+    /* this also rotate the content or the  text */
  }

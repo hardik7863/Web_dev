@@ -1,0 +1,25 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border:2px solid black;
+   display: flex; 
+   /* by deafualt rows me display hoga */
+
+   /* otherwise you can change through below property */
+   flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+#container div
+{
+height: 100px;
+width: 300px;
+color: white;
+text-align: center;
+font-size: 1.5em;
+}
+/* in case agar kam width denge toh left me shift honge or right me space create ho jayege 
+in case agar jyda width dey de toh utnhi he set hoge jetne me box me fit ho jaye*/

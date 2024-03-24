@@ -1,0 +1,35 @@
+section{
+
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+div:nth-of-type(2n){
+background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+/* Transform */
+ #one{
+    transform: rotate(45deg);
+    /* this also rotate the content or the  text */
+ }
+ #two{
+    /* transform: scale(0.5); */
+
+    transform: scale(0.5,2);
+    /* transform in x direction and y direction */
+    transform: scaleX(0.5);
+    /* it is used to transform only along x axis */
+    transform: scaleY(0.5);
+    /* it is used to transform only along y axis */
+
+}
